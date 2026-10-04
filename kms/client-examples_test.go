@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"aead.dev/mtls"
-	"github.com/minio/kms-go/kms"
+	"github.com/lgcorzo/kms-go/kms"
 )
 
 func ExampleNewClient() {

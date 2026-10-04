@@ -11,7 +11,7 @@ import (
 	"log/slog"
 	"time"
 
-	pb "github.com/minio/kms-go/kms/protobuf"
+	pb "github.com/lgcorzo/kms-go/kms/protobuf"
 )
 
 // StackFrame contains the resolved file and line number

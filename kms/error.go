@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	"aead.dev/mem"
-	"github.com/minio/kms-go/kms/internal/headers"
-	pb "github.com/minio/kms-go/kms/protobuf"
+	"github.com/lgcorzo/kms-go/kms/internal/headers"
+	pb "github.com/lgcorzo/kms-go/kms/protobuf"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 )

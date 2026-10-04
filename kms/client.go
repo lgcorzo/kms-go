@@ -23,12 +23,12 @@ import (
 
 	"aead.dev/mem"
 	"aead.dev/mtls"
-	"github.com/minio/kms-go/kms/cmds"
-	"github.com/minio/kms-go/kms/internal/api"
-	"github.com/minio/kms-go/kms/internal/headers"
-	"github.com/minio/kms-go/kms/internal/https"
-	"github.com/minio/kms-go/kms/internal/pool"
-	pb "github.com/minio/kms-go/kms/protobuf"
+	"github.com/lgcorzo/kms-go/kms/cmds"
+	"github.com/lgcorzo/kms-go/kms/internal/api"
+	"github.com/lgcorzo/kms-go/kms/internal/headers"
+	"github.com/lgcorzo/kms-go/kms/internal/https"
+	"github.com/lgcorzo/kms-go/kms/internal/pool"
+	pb "github.com/lgcorzo/kms-go/kms/protobuf"
 )
 
 // Config is a structure containing configuration

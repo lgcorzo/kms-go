@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/minio/kms-go/kms/internal/api"
+	"github.com/lgcorzo/kms-go/kms/internal/api"
 )
 
 type recordingRoundTripper struct {

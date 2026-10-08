@@ -24,7 +24,7 @@ jobs:
         go build ./kms ./kes
         go vet ./kms ./kes
     - name: Lint
-      uses: golangci/golangci-lint-action@v6
+      uses: golangci/golangci-lint-action@v7
       with:
         version: v2.11.3
         args: --config ./.golangci.yml --timeout=5m ./kms ./kes

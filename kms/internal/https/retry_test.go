@@ -195,6 +195,8 @@ func TestLoadBalancerRoundTripSuspendsFailedHost(t *testing.T) {
 
 // suspended reports whether host is currently suspended. It exists for
 // tests only; production code consults isSuspended while holding lb.mu.
+//
+//nolint:unparam
 func (lb *LoadBalancer) suspended(host string) bool {
 	lb.mu.RLock()
 	defer lb.mu.RUnlock()

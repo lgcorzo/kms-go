@@ -8,4 +8,4 @@ require (
 	github.com/prometheus/common v0.51.1
 )
 
-require google.golang.org/protobuf v1.33.0 // indirect
+require google.golang.org/protobuf v1.36.12 // indirect

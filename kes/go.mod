@@ -1,6 +1,6 @@
 module github.com/lgcorzo/kms-go/kes
 
-go 1.25
+go 1.26.9
 
 require (
 	aead.dev/mem v0.2.0
@@ -8,4 +8,4 @@ require (
 	github.com/prometheus/common v0.51.1
 )
 
-require google.golang.org/protobuf v1.33.0 // indirect
+require google.golang.org/protobuf v1.36.12 // indirect

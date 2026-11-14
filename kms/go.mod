@@ -1,6 +1,6 @@
 module github.com/lgcorzo/kms-go/kms
 
-go 1.26.9
+go 1.26.11
 
 require (
 	aead.dev/mem v0.2.0

@@ -1,3 +1,5 @@
+Maintained fork of [minio/kms-go](https://github.com/minio/kms-go). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: Apache-2.0.
+
 # @lgcorzo/kms-go — Sovereign Cryptographic KMS & KES Go SDKs
 
 [![Go Reference (KMS)](https://pkg.go.dev/badge/github.com/lgcorzo/kms-go/kms.svg)](https://pkg.go.dev/github.com/lgcorzo/kms-go/kms)
@@ -207,3 +209,10 @@ The table below outlines the 38 interconnected repositories maintained under `@l
 ## License
 
 Use of the KES SDK and KMS SDK is governed by the AGPLv3 license that can be found in the [LICENSE](./LICENSE) file.
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](https://github.com/lgcorzo/kms-go/commits) and [Pull Requests](https://github.com/lgcorzo/kms-go/pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
